@@ -9,7 +9,7 @@
   top:0;
   left: 0;
   width: 100%;
-  background: $color-blue-1;
+  //background: $color-white-1;
   @include flex(0 0 auto);
 }
 
@@ -28,6 +28,7 @@
 
 .navGlobal--mobileTablet{
   height: $global-nav-height-mobile;
+  display: none; // hiding temporarily
   @include desktop {
     display: none;
   }
@@ -46,10 +47,10 @@
   padding:0 20px;
   border:0;
   outline:none;
-  background:black;
+  background:transparent;
   line-height:$global-nav-height-desktop;
-  color:white;
-  overflow-x:hidden;
+  color:$color-white-1;
+  overflow:hidden;
   cursor:pointer;
   text-align:center;
   white-space:nowrap;
@@ -62,7 +63,7 @@
     display:block;
   }
 
-  @include setPseudoClasses(transparent, $color-bkgd, $color-blue-2, $color-bkgd);
+  @include setPseudoClasses(transparent, $color-white-1, rgba(255,255,255,1), $color-blue-3, .3s);
 
   @include mobile{
     line-height:$global-nav-height-mobile;
