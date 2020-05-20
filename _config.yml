@@ -87,7 +87,7 @@ verbose:  true
 
 # ▒ Global/Site-level Variables [begin]
 # ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-url: &default_url //vincentvtoscano.github.io/JekyllBaseProject_2020-001
+url: &default_url //vincentvtoscano.github.io/JekyllBaseProject_2020-001 # Update per project
 urlStage: http://JekyllBaseProject_2020-001-stage.JekyllBaseProject_2020-001.net
 urlDev: http://127.0.0.1:4000
 urlAPI: https://JekyllBaseProject_2020-001-api.JekyllBaseProject_2020-001.net
@@ -102,9 +102,9 @@ meta:
   author: &default_author Vincent V. Toscano
   editor: &default_editor Vincent V. Toscano
   publisher: *default_name
-  theme_color: &default_theme_color "#ffa500"
+  theme_color: &default_theme_color "#000000"
   baseURL: &default_baseURL http://mySite.net
-  app_name: &default_app_name Vincent # Should not be adjusted per page - Windows 7: "[D]efines the name of the Pinned site application instance.
+  app_name: &default_app_name Vincent V. Toscano # Should not be adjusted per page - Windows 7: "[D]efines the name of the Pinned site application instance.
   robots: noindex,nofollow # noindex,nofollow or index,follow
   iconURL: &default_iconURL /assets/imgs/global/ # pinned sites customizations
   configURL: *default_iconURL # pinned sites customizations (such as tile background, badge updates and notifications)
@@ -116,12 +116,12 @@ meta:
     description: *default_description
     site_name: *default_name
     type: website # ▒▒▒▒▒▒ website article book ▒▒▒▒▒▒ https://developers.facebook.com/docs/reference/opengraph#object-type
-    image: /assets/imgs/share/Vincent_share_fb_20200508.png
+    image: /assets/imgs/global/VincentVToscanoTM2015MontageVideoPoster_d.png
     image_type: image/png
-    image_width: 1200
-    image_height: 630
+    image_width: 1920
+    image_height: 1080
     image_alt: *default_description
-    updated_time: 2020-01-02 # https://en.wikipedia.org/wiki/ISO_8601
+    updated_time: 2020-05-20 # https://en.wikipedia.org/wiki/ISO_8601
   twitter:  #https://dev.twitter.com/cards/types/summary-large-image
     card: summary_large_image #Uses a large image, unlike plain summary
     site: &twitter_username "@usernameNeeded" # @username for the website used in the card footer. [without the @]
